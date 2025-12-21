@@ -24,7 +24,7 @@
 AC_PREREQ([2.60])
 # bump version in meson.build
 AC_INIT([xf86-input-wacom],
-        [1.2.3],
+        [25.0.0],
         [https://github.com/linuxwacom/xf86-input-wacom/issues/],
         [xf86-input-wacom])
 AC_CONFIG_MACRO_DIR([m4])
@@ -107,9 +107,6 @@ sdkdir=`$PKG_CONFIG --variable=sdkdir xorg-server`
 # write permission in sdkdir. See DISTCHECK_CONFIGURE_FLAGS in Makefile.am
 AC_ARG_WITH([sdkdir], [], [sdkdir="$withval"])
 AC_SUBST([sdkdir])
-
-DRIVER_NAME=wacom
-AC_SUBST([DRIVER_NAME])
 
 # -----------------------------------------------------------------------------
 #			Configuration options
