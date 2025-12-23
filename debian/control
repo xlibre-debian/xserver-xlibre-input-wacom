@@ -15,8 +15,8 @@ Build-Depends:
  xutils-dev,
 Standards-Version: 4.7.0
 Homepage: https://github.com/X11Libre
-Vcs-Git: https://github.com/xlibre-deb/xf86-input-wacom.git
-Vcs-Browser: https://github.com/xlibre-deb/xf86-input-wacom
+Vcs-Git: https://github.com/xlibre-debian/xf86-input-wacom.git
+Vcs-Browser: https://github.com/xlibre-debian/xf86-input-wacom
 
 Package: xserver-xlibre-input-wacom
 Section: x11
